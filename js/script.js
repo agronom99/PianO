@@ -14,7 +14,7 @@ const playSound = (keyPlayedNow) => {
     audio.pause();
     audio.currentTime = 0;
   }
-  audio = new Audio(`audio/key-${keyPlayedNow}.mp3`);
+  audio = new Audio(`../audio/key-${keyPlayedNow}.mp3`);
   audio.play();
   console.log(audio);
 };
