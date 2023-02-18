@@ -1,3 +1,5 @@
+"use strict";
+
 const whiteKeys = [...document.querySelectorAll("path.white-keys")];
 console.log(whiteKeys);
 const blackKeys = [...document.querySelectorAll("path.black-keys")];
